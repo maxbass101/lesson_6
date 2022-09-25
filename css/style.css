@@ -1,0 +1,292 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@font-face {
+   font-family: "Chinyen";
+   src: url("../fonts/Chinyen.woff2") format("woff2"), url("../fonts/Chinyen.woff2") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+
+header,
+footer {
+   font-family: "Chinyen";
+   padding-left: 50px;
+   margin-bottom: 40px;
+}
+header h2 {
+   font-size: 40px;
+   color: green;
+}
+.list {
+   font-size: 20px;
+}
+.list a {
+   color: blue;
+}
+
+/* <СТАТЬЯ>========================================================= */
+.article {
+   max-width: 810px;
+   margin: 0px auto;
+   font-family: "Lato";
+   font-size: 16px;
+   line-height: 160%;
+   color: #424551;
+}
+.title {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   align-items: center;
+   color: #1E212C;
+   margin-bottom: 92px;
+}
+.image {
+   margin-bottom: 60px;
+}
+.image img {
+   max-width: 100%;
+}
+.article p,
+.article-list {
+   margin-bottom: 24px;
+}
+.bold,
+.quote {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+   color: #1E212C;
+}
+.quote {
+   padding: 24px 0px 24px 58px;
+}
+.article-list {
+   padding-left: 32px;
+}
+.article-list li {
+   line-height: 200%;
+}
+.article-list + p {
+   margin-bottom: 0px;
+}
+.text {
+   margin-bottom: 60px;
+}
+/* </СТАТЬЯ>========================================================= */
+
+.block-property,
+.block-view {
+   padding-left: 50px;
+}
+.block-property h2,
+.block-view h2 {
+   font-size: 40px;
+   font-weight: 700;
+   margin-bottom: 25px;
+   text-decoration: underline;
+}
+.chapter {
+   margin-bottom: 20px;
+}
+h3 {
+   font-size: 30px;
+   font-weight: 700;
+}
+.red {
+   color: red;
+   /* смотрю как работает  monospace по умолчанию*/
+   font-family: 'Courier New', Courier, monospace; 
+}
+.example {
+   padding: 10px;
+}
+.italic {
+   font-style: italic;
+}
+
+.max-width1 {
+   display: inline-block;
+   max-width: 300px;
+   background-color: yellow;
+}
+.max-width2 {
+   display: inline-block;
+   max-width: 100px;
+   background-color: red;
+}
+.max-width3 img {
+   max-width: 200px;
+   background-color: green;
+}
+.max-width4 {
+   display: block;
+   max-width: 90%;
+   background-color: blue;
+   color: #fff;
+} 
+.min-width1 {
+   min-width: 500px;
+   background-color: aqua;
+}
+.min-width2 img {
+   min-width: 200px;
+}
+.height1 {
+   max-width: 300px;
+   height: 42px;
+   background-color: yellow;
+   margin-bottom: 60px;
+}
+.height2 {
+   max-width: 300px;
+   height: 100px;
+   background-color: green;
+}
+.min-height1 {
+   min-height: 100px;
+   background-color: yellow;
+}
+.max-height1 {
+   max-height: 10px;
+   background-color: yellow;
+   margin-bottom: 40px;
+}
+.property-list {
+   padding-left: 5px;
+}
+.visible {
+   max-width: 400px;
+   height: 40px;
+   background-color: yellow;
+   margin-bottom: 40px;
+}
+.hidden {
+   max-width: 400px;
+   height: 40px;
+   overflow: hidden;
+   background-color: red;
+   margin-bottom: 20px;
+}
+.auto {
+   max-width: 400px;
+   height: 100px;
+   overflow: auto;
+}
+.link {
+   display: block;
+   width: 200px;
+   margin-bottom: 5px;
+}
+.one,
+.two,
+.three {
+   background-color: red;
+   border-radius: 4px;
+   color: #fff;
+   text-align: center;
+   padding: 5px;
+}
+.two {
+   background-color: yellow;
+   color: #1E212C;
+}
+.three {
+   background-color: green;
+}
+.image2 {
+   display: block;
+   height: 200px;
+}
+.inline-p {
+   display: inline-block;
+   max-width: 200px;
+}
+.none {
+   display: none;
+}
+.items {
+   font-size: 0;
+}
+.item {
+   color: #fff;
+   text-align: center;
+   font-size: 20px;
+   display: inline-block;
+   width: 100px;
+   height: 50px;
+   background-color: violet;
+}
+.solid,
+.dotted,
+.dashed,
+.double {
+   max-width: 300px;
+   padding: 10px;
+   border: 3px solid red;
+   margin-bottom: 10px;
+}
+.dotted {
+   border: 5px dotted yellow;
+   border-right: none;
+}
+.dashed {
+   border: 2px dashed green;
+   border-bottom: 2px solid red;
+}
+.double {
+   border: 6px double blue;
+   border-top: 6px dotted yellow;
+   border-left: 6px dotted yellow;
+}
+.outline1 {
+   padding: 5px;
+   background-color: yellow;
+   outline: 4px solid red;
+}
+.border-radius1 {
+   max-width: 400px;
+   padding: 10px;
+   background-color: green;
+   border-radius: 5px;
+   margin-bottom: 10px;
+}
+.circle {
+   width: 50px;
+   height: 50px;
+   background-color: red;
+   border-radius: 50%;
+}
+.box-shadow1 img,
+.box-shadow2 img,
+.box-shadow3 img {
+   max-width: 500px;
+   border-radius: 10px;
+   box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+   -23px 0 20px -23px rgba(0, 0, 0, .6),
+   23px 0 20px -23px rgba(0, 0, 0, .6),
+   inset 0 0 40px rgba(0, 0, 0, .1);
+   margin-bottom: 10px;
+}
+.circle2 {
+   width: 100px;
+   height: 100px;
+   background-color: red;
+   border-radius: 50%;
+   box-shadow: inset 17px 18px 12px 3px rgba(0,0,0,0.75);
+}
+.box-shadow2 img {
+   opacity: 0.5;
+}
+.box-shadow3 img {
+   visibility: hidden;
+}
+
+footer h2 {
+   font-size: 40px;
+   color: red;
+}
+
